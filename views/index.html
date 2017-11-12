@@ -3,51 +3,50 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="referrer" content="default">
+  <meta name="keywords" content="shorten link, shorten url, short url, short link, link shortener, url shortener" />
+  <meta name="description" content="Shorten those anonying long, UGLY links..." />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>URL Shortener - coligo.io</title>
+  <title>URL Shortener - ylp.pw</title>
   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link href="css/styles.css" rel="stylesheet">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109302893-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109302893-1');
+</script>
 </head>
 <body>
-
   <div class="site-wrapper">
-
     <div class="site-wrapper-inner">
-
       <div class="main-container">
-
         <div class="inner cover">
           <span class="glyphicon glyphicon-link"></span>
           <h1>URL Shortener</h1>
-          <h4>coligo.io</h4>
-
+          <h4>Shorten those anonying, long, UGLY links...</h4>
           <div class="row">
-
             <div class="col-lg-12">
               <div class="input-group input-group-lg">
-                <input id="url-field" type="text" class="form-control" placeholder="Paste a link...">
+                <input id="url-field" type="text" class="form-control" placeholder="Paste your link...">
                 <span class="input-group-btn">
                   <button class="btn btn-shorten" type="button">SHORTEN</button>
                 </span>
               </div>
             </div>
-
             <div class="col-lg-12">
               <div id="link"></div>
             </div>
-
           </div>
-
         </div>
-
       </div>
-
     </div>
-
   </div>
-
   <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <script src="javascripts/shorten.js"></script>
