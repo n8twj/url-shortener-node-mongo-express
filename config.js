@@ -1,9 +1,6 @@
 var config = {};
-
 config.db = {};
-config.webhost = 'http://localhost:3000/';
-
-config.db.host = 'localhost';
-config.db.name = 'url_shortener';
+config.webhost = 'https://ylp.pw/';
+config.db.url = 'mongodb://127.0.0.1/ylp';
 
 module.exports = config;
