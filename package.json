@@ -4,9 +4,10 @@
   "description": "A NodeJS + Express + MongoDB based URL shortener",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
-  "author": "coligo.io",
+  "author": "Jeremy McNamara",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.14.1",
